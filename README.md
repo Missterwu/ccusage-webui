@@ -63,7 +63,7 @@ npx ccusage-webui
 ### Option C — Clone and run locally
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ccusage-webui.git
+git clone https://github.com/Missterwu/ccusage-webui.git
 cd ccusage-webui
 node src/server.mjs
 ```
