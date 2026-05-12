@@ -1,0 +1,19 @@
+{
+  "name": "ccusage-webui",
+  "version": "1.0.0",
+  "description": "Local web UI for Claude Code token usage (ccusage)",
+  "type": "module",
+  "bin": {
+    "ccusage-webui": "./bin/ccusage-webui.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["ccusage", "claude", "claude-code", "dashboard", "token-usage", "webui"],
+  "license": "MIT",
+  "files": [
+    "bin/",
+    "src/",
+    "README.md"
+  ]
+}

@@ -1,0 +1,18 @@
+# 运行时数据（不应发布到 npm）
+report-*.html
+report-*.md
+usage-*.html
+usage-*.json
+usage-*.md
+
+# 旧版文件
+server.mjs
+render-ccusage-html.mjs
+render-ccusage-md.mjs
+export.sh
+启动控制台.command
+
+# 开发和测试
+.env
+*.log
+tmp/

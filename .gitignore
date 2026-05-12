@@ -1,0 +1,17 @@
+# Runtime data
+report-*.html
+report-*.md
+usage-*.html
+usage-*.json
+usage-*.md
+
+# Legacy files
+server.mjs
+render-ccusage-html.mjs
+render-ccusage-md.mjs
+export.sh
+启动控制台.command
+
+# System
+.DS_Store
+.superpowers/
