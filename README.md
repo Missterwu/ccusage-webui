@@ -8,15 +8,15 @@ Built on top of [ccusage](https://github.com/ryoppippi/ccusage) — the excellen
 
 ---
 
-![ScreenShot_2026-05-12_135848_523](/Users/pavie/Downloads/未命名文件夹 4/ScreenShot_2026-05-12_135848_523.png)
+![Dashboard overview](assets/ScreenShot_2026-05-12_135848_523.png)
 
-![ScreenShot_2026-05-12_135902_748](/Users/pavie/Downloads/未命名文件夹 4/ScreenShot_2026-05-12_135902_748.png)
+![Quick actions](assets/ScreenShot_2026-05-12_135902_748.png)
 
-![ScreenShot_2026-05-12_135954_227](/Users/pavie/Downloads/未命名文件夹 4/ScreenShot_2026-05-12_135954_227.png)
+![Custom query](assets/ScreenShot_2026-05-12_135954_227.png)
 
-![ScreenShot_2026-05-12_140033_620](/Users/pavie/Downloads/未命名文件夹 4/ScreenShot_2026-05-12_140033_620.png)
+![Report view](assets/ScreenShot_2026-05-12_140033_620.png)
 
-![ScreenShot_2026-05-12_140055_283](/Users/pavie/Downloads/未命名文件夹 4/ScreenShot_2026-05-12_140055_283.png)
+![Language switch](assets/ScreenShot_2026-05-12_140055_283.png)
 
 ## Features
 
