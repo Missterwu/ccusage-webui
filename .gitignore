@@ -4,6 +4,7 @@ report-*.md
 usage-*.html
 usage-*.json
 usage-*.md
+export.log
 
 # Legacy files
 server.mjs
