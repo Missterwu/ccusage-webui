@@ -32,8 +32,13 @@ const PORT = Number(process.env.PORT || process.env.CCUSAGE_PORT || 7788);
 const PROJECTS_DIR = path.join(os.homedir(), ".claude/projects");
 
 // ── Helpers ──
-const dateKey   = () => new Date().toISOString().slice(0,10).replace(/-/g,"");
-const dateLabel = () => new Date().toISOString().slice(0,10);
+// Use the local system timezone for all date/time stamps.
+const _pad = n => String(n).padStart(2, "0");
+const dateLabel = () => {
+  const d = new Date();
+  return `${d.getFullYear()}-${_pad(d.getMonth() + 1)}-${_pad(d.getDate())}`;
+};
+const dateKey = () => dateLabel().replace(/-/g, "");
 
 // Strips project root prefix from Claude project directory slugs.
 // Set CCUSAGE_PROJECT_ROOT to the parent dir of your projects for cleaner names.
@@ -157,7 +162,8 @@ function listAllReports() {
 
 // ── Report filename (pre-computed at request time) ──
 function makeReportBasename(typeKey) {
-  const ts = new Date().toISOString().slice(0,16).replace("T","-").replace(":","-");
+  const d = new Date();
+  const ts = `${dateLabel()}-${_pad(d.getHours())}-${_pad(d.getMinutes())}`;
   return `report-${typeKey}-${ts}`;
 }
 
